@@ -24,7 +24,7 @@ services:
       DB_URL: postgres/atlas
       DB_USER: ${POSTGRES_USER}
       DB_PWD: ${POSTGRES_PWD}
-      PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:8080}
+      PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:8089}
       PUBLIC_FRONT_URL: ${PUBLIC_FRONT_URL}
       GCP_BUCKET_NAME: ${GCP_BUCKET_NAME}
       GCP_JSON: ${GCP_JSON}
@@ -66,7 +66,7 @@ services:
       SENDGRID_CONTACT_LIST_ID: ${SENDGRID_CONTACT_LIST_ID:-}
       RECAPTCHA_SECRET_KEY: ${RECAPTCHA_SECRET_KEY:-}
     ports:
-      - "8080:8080"
+      - "8080:8089"
   frontend:
     image: intelloop/atlas-cmms-frontend
     container_name: atlas-cmms-frontend
