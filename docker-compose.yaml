@@ -73,7 +73,7 @@ services:
     environment:
         API_URL: ${PUBLIC_API_URL}
         GOOGLE_KEY: ${GOOGLE_KEY:- }
-        #GOOGLE_TRACKING_ID: ${GOOGLE_TRACKING_ID:- }
+        GOOGLE_TRACKING_ID: ${GOOGLE_TRACKING_ID:- }
         INVITATION_VIA_EMAIL: ${INVITATION_VIA_EMAIL:-false}
         CLOUD_VERSION: ${CLOUD_VERSION:-false}
         NODE_ENV: production
