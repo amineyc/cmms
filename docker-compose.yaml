@@ -99,7 +99,7 @@ services:
       DEMO_LINK: " "
       PADDLE_SECRET_TOKEN: " "
       PADDLE_ENVIRONMENT: sandbox
-      RECAPTCHA_SITE_KEY: ""
+      RECAPTCHA_SITE_KEY: " "
     ports:
       - "3000:3000"
 
