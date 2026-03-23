@@ -37,7 +37,7 @@ services:
       DB_USER: rootUser
       DB_PWD: mypassword
       PUBLIC_API_URL: http://cmmsapi.app.imc-dz.com:8089
-      PUBLIC_FRONT_URL: http://cmms.app.imc-dz.com:3000
+      PUBLIC_FRONT_URL: http://cmms.app.imc-dz.com
       JWT_SECRET_KEY: sD1HBM6ngcaDLMzDqgA9Pn9LEECNAp0C1EOHIR/D+q4=
       MINIO_ENDPOINT: http://minio:9000
       MINIO_BUCKET: atlas-bucket
@@ -101,7 +101,7 @@ services:
       PADDLE_ENVIRONMENT: sandbox
       RECAPTCHA_SITE_KEY: " "
     ports:
-      - "3000:3000"
+      - "80:3000"
 
 volumes:
   postgres_data:
