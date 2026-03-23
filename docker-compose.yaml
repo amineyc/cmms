@@ -44,7 +44,7 @@ services:
       MINIO_ACCESS_KEY: minio
       MINIO_SECRET_KEY: minio123
       STORAGE_TYPE: minio
-      PUBLIC_MINIO_ENDPOINT: https://cmmsminio.app.imc-dz.com
+      PUBLIC_MINIO_ENDPOINT: http://minio:9000
       ENABLE_CORS: "true"
       INVITATION_VIA_EMAIL: "false"
       ENABLE_EMAIL_NOTIFICATIONS: "false"
