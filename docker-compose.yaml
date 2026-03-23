@@ -90,7 +90,7 @@ services:
       INVITATION_VIA_EMAIL: "false"
       CLOUD_VERSION: "false"
       ENABLE_SSO: "false"
-      GOOGLE_TRACKING_ID: ""
+      GOOGLE_TRACKING_ID: " "
       GOOGLE_KEY: ""
       OAUTH2_PROVIDER: ""
       LOGO_PATHS: ""
