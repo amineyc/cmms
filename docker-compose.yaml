@@ -36,7 +36,7 @@ services:
       DB_URL: postgres/atlas
       DB_USER: rootUser
       DB_PWD: mypassword
-      PUBLIC_API_URL: https://cmmsapi.app.imc-dz.com
+      PUBLIC_API_URL: http://cmmsapi.app.imc-dz.com:8089
       PUBLIC_FRONT_URL: https://cmms.app.imc-dz.com
       JWT_SECRET_KEY: sD1HBM6ngcaDLMzDqgA9Pn9LEECNAp0C1EOHIR/D+q4=
       MINIO_ENDPOINT: http://minio:9000
@@ -85,7 +85,7 @@ services:
     depends_on:
       - api
     environment:
-      API_URL: https://cmmsapi.app.imc-dz.com
+      API_URL: http://cmmsapi.app.imc-dz.com:8089
       NODE_ENV: production
       INVITATION_VIA_EMAIL: "false"
       CLOUD_VERSION: "false"
