@@ -24,7 +24,7 @@ services:
     command: server --address ":9000" --console-address ":9001" /data
 
   api:
-    image: intelloop/atlas-cmms-backend:1.3.0
+    image: intelloop/atlas-cmms-backend:v1.3.0
     container_name: atlas-cmms-backend
     depends_on:
       - postgres
@@ -80,7 +80,7 @@ services:
       - "8089:8080"
 
   frontend:
-    image: intelloop/atlas-cmms-frontend:1.3.0
+    image: intelloop/atlas-cmms-frontend:v1.3.0
     container_name: atlas-cmms-frontend
     depends_on:
       - api
