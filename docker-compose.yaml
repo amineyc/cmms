@@ -76,7 +76,6 @@ services:
       SENDGRID_FROM_EMAIL: ""
       SENDGRID_CONTACT_LIST_ID: ""
       RECAPTCHA_SECRET_KEY: ""
-      MUI_X_LICENSE: " "
     ports:
       - "8089:8080"
 
@@ -101,6 +100,7 @@ services:
       PADDLE_SECRET_TOKEN: " "
       PADDLE_ENVIRONMENT: sandbox
       RECAPTCHA_SITE_KEY: " "
+      MUI_X_LICENSE: " "
     ports:
       - "3000:3000"
 
